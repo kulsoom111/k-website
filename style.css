@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #060122;
+    color: white;
+}
+.head{
+    background-color: #060122;
+    height: 100vh;
+    }
+    .right-row{
+        padding: 5% 0;
+    }
+     
+    .navbarDark{
+        background-color: #060122;
+    }
+    
+
+    .display-3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+   
+
+     h5{
+        color:#060122;
+    }
+    /* .badge{
+        align-items: center;
+    } */
+
+   h2{
+    font-weight: 700;
+   }
+ 
+   footer{
+    color: #060122;
+    text-align: center;
+    
+   }
+   .carousel-item img{
+       height: 50vh;
+       opacity: 0.5;
+       border-radius: 5px;
+
+   }
+   /* blog comment on small screen */
+   @media only screen and (min-width: 768px) {
+        .blog-comment{
+           width: 50%;
+       }
+   }
+   @media only screen and (max-width: 768px) {
+    .navbar{
+        background-color: #060122;
+    }
+}
